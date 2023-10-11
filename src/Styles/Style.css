@@ -1,0 +1,296 @@
+body,
+html {
+    overflow-x: hidden;
+    padding: 0px !important;
+}
+
+.cart i {
+    color: #690569;
+    font-size: 20px;
+}
+
+.bg-nav {
+    background-image: linear-gradient( to right, #b407b9, #d83ead) !important;
+}
+
+.head-img img {
+    width: 70%;
+}
+
+.nav1 ul li a {
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 14px !important;
+}
+
+.nav1 ul li a:hover {
+    color: #000 !important;
+    background-color: #fbedff;
+}
+
+.search {
+    background-color: #fbedff;
+    border-radius: 30px;
+    height: 35px;
+}
+
+i.fa-solid.fa-bag-shopping.px-2.add-cart p {
+    position: absolute !important;
+    top: 43px !important;
+    right: 57px !important;
+    color: #fff;
+    background-color: #eb1deb;
+    padding: 5px 7px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #fbedff;
+}
+
+.search select {
+    background-color: #fbedff;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.search i {
+    background-color: #690569;
+    color: #fff;
+    padding: 9px 10px;
+    border-radius: 20px;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.add-cart {
+    position: relative;
+}
+
+i.fa-solid.fa-bag-shopping.px-2.add-cart p {
+    position: absolute !important;
+    top: 15px !important;
+    right: 0px !important;
+    color: #fff;
+    background-color: #fc77fc;
+    padding: 5px 7px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+.btn-bg {
+    background-color: #fff !important;
+    color: #850085 !important;
+    border: 1px solid #850085 !important;
+}
+
+.btn-bg2 {
+    background-color: #d83ead !important;
+    color: #fff !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.custom-drop .dropdown-content {
+    right: 0px;
+    max-width: 200px !important;
+}
+
+.drop:before {
+    content: '';
+    position: absolute;
+    right: 10%;
+    top: -5px;
+    height: 10px;
+    width: 10px;
+    background: white;
+    transform: rotate(45deg);
+    box-shadow: -1px -1px 1px grey;
+}
+
+.dropdown-content {
+    box-shadow: 0px 0px 1px grey;
+}
+
+.custom-drop-logout .dropdown-content {
+    right: 0px;
+    min-width: 200px !important;
+}
+
+.logout-drop:before {
+    content: '';
+    position: absolute;
+    right: 7%;
+    top: -5px;
+    height: 10px;
+    width: 10px;
+    background: white;
+    transform: rotate(45deg);
+    box-shadow: -1px -1px 1px grey;
+}
+
+
+/* New Arrival  */
+
+.new_arrival h1 {
+    font-size: 16px;
+    min-height: 38px;
+}
+
+.new_arrival h2 {
+    font-size: 16px;
+    font-weight: 800;
+    min-height: 38px;
+}
+
+.new_arrival button {
+    background-color: #b407b9;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+
+/* product page  */
+
+.product-image img {
+    border: 1px solid #850085;
+    transform: scale(0.9);
+}
+
+.product-image {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: 11%;
+    top: 10%;
+    font-size: 22px;
+    color: #ea83ea;
+    cursor: pointer;
+}
+
+.product-description h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.path p {
+    font-size: 15px;
+}
+
+.product-description h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.product-description button {
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.product-description p {
+    font-size: 14px;
+}
+
+.product-color-section h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-color button {
+    font-size: 13px;
+    border: 1px solid #690569;
+    text-align: center;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.product-ship h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.product-ship p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.add-sub button {
+    font-size: 18px;
+}
+
+.Pro-page-cart button {
+    background-color: #850085;
+    color: #fff;
+}
+
+.Pro-page-cart button:hover {
+    background-color: #850085;
+    color: #fff;
+}
+
+.Pro-page-wish button {
+    border: 1px solid #850085;
+    color: #850085;
+    background-color: transparent;
+}
+
+.Pro-page-wish button:hover {
+    border: 1px solid #850085;
+}
+
+.product-page-delivery h5 {
+    font-size: 13px;
+}
+
+.product-page-delivery h6 {
+    font-size: 12px;
+}
+
+.product-page-delivery p {
+    font-size: 14px;
+}
